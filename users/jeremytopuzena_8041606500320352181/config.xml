@@ -1,0 +1,118 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<user>
+  <version>10</version>
+  <id>jeremy_topuzenat</id>
+  <fullName>jeremy.topuzenat</fullName>
+  <description></description>
+  <properties>
+    <jenkins.security.ApiTokenProperty>
+      <tokenStore>
+        <tokenList>
+          <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+            <uuid>4820c965-829a-4ff5-8006-d799ef3ab05f</uuid>
+            <name>youtrack</name>
+            <creationDate>2022-12-21 13:12:30.120 UTC</creationDate>
+            <value>
+              <version>11</version>
+              <hash>8d5cd11e5e8fee1e4e168df25878979d567aceb6a31410872d82f5cbc58e8e23</hash>
+            </value>
+          </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+        </tokenList>
+      </tokenStore>
+    </jenkins.security.ApiTokenProperty>
+    <io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty plugin="blueocean-autofavorite@1.2.5">
+      <autofavoriteEnabled>true</autofavoriteEnabled>
+    </io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty>
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@1074.v60e6c29b_b_44b_">
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain>
+            <specifications/>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <java.util.concurrent.CopyOnWriteArrayList/>
+        </entry>
+      </domainCredentialsMap>
+    </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@408.vd726a_1130320">
+      <emailAddress>jeremy.topuzenat@acensi.fr</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.87">
+      <triggers/>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
+    <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.3.3">
+      <data class="concurrent-hash-map"/>
+    </hudson.plugins.favorite.user.FavoriteUserProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1652083318528</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
+    <hudson.model.MyViewsProperty>
+      <primaryViewName>jeremy_topuzenat</primaryViewName>
+      <views>
+        <hudson.model.AllView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>all</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.AllView>
+      </views>
+    </hudson.model.MyViewsProperty>
+    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.3.5">
+      <providerId>default</providerId>
+    </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
+    <hudson.model.PaneStatusProperties>
+      <collapsed/>
+    </hudson.model.PaneStatusProperties>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$kIA2jtULWkPhI8CbEAPSX.cOFRhpfF4ArWQnRXKSFAfbNmfQsy94q</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl plugin="sshd@3.1.0">
+      <authorizedKeys>-----BEGIN RSA PRIVATE KEY-----
+Proc-Type: 4,ENCRYPTED
+DEK-Info: DES-EDE3-CBC,C892E73C2EA02160
+
+icwN4OCkJX7Z+tMJbVl5sW5RL7O7i7XEw+gxUYVygCwVjC1/lq7aGSSx37oTh6FU
+aPTGf7xwsUqQZ8X03ghhtZLVO4Tb1VGqWBGb7+LECXoEKgYl6LUFjn6INOIDCQEA
+YMzftzaJ04RsovKgdR8iBWyUV7Bkk+H6ld0nw9bzHeFb9IjT0kbjkag8yWjKdla9
+mRNONC7OKuX7iIrI52YRnZgLyizDcw7raRbPFRxRMZAkLyERnW+GRZybXeA5yG8D
+obU4aJvCF5Mxyq7AfLMbjcel5XP585NDaosiqRWNSWa1osQez5lB19JTWETCxTF9
+JgZwFEMEIVKIieEkzSZ/WIlAgJwXPh7U99IboblHypJriiyEWgsB8NvIydd/Lhpk
+ydi9jSPASTAxp0vLpV94ogwp9wZP3qIRo7xoNeFuaWmPLw60+5uVWiTdngGEDROq
+pC+2+Z/z21n5y80RU9TRYnHz62+xX2kErSwoFIswQKqm561WM44RR++B4QFZCwY/
+rV+baVX+5VcBV4pBthnMQYKcwt0yu6CzIjn/4O5wsp+hI716rus5ExGD99IZqX4x
+4sjQO6Pv3cNW20zVO/485Oa6vLVhjYwhbXzEiVlLX0LSzaxQXxfHexcSoe1Yg1W/
+7jn++z4whnHW26is9P/cOLDyxOIxbbQtg5g2qPTbB0/UopAPOGtJk0AdLHGolca3
+BCJ+haTmTnkPHoEqN3sjje5PBCI1PzcMa1K4LtWE8dkSFiUwmpnkIlmdE5WH9ZU/
+OaVhvwbo0phOshHDMdiF62w2iZPDsL21iYVBVOA50Ue12a84Mxs3F/xjuoaG15TX
+KE9VBttofLX4Bt2OKypS8mGAZuFEHu4AMwyaiEUEh0PN9Nzm8W2INeFl2LKBMx/d
+QKBiv02k+pZhCDCxlLt7tJe9G0Ad78ZDyvhRv5ofmcaU51mnq9cjgzQqQq5gsbxH
+yTvOtKUwWTd/CgMbBzU+E/9OZYXiNZ27bKVXeJXB/I1nBOAYnsNqzZhUOhXMRX4t
+sTo3XS88kCMNbXRs3dSfOKzHmofJGLv6e0LTRiDDEy8TedqUvFyFzsVJQ+YP8sNg
+qKdlOY5EKUJZJDZTCQzfFIx6gYxDdaalTmSqSIMXjK2rphKODIWYv8bSEptho/36
+3Cef390KoAG7C3F1XX5SJTPEQXsgRTcKVHA72HyrW8CnyAliK95NA8ItSvcaonnk
+1lVB+OJlFLGVeCqzsV/DWFclPj1VKNR0+gj2KbY4tSs0t+rPcX86FPGw3ejvKLhs
+2rl1fmn9wLJ/LgMCBHJhsatzBVPBulx6sX46zRNIryyVv7ycKkWMXQKdYGkHbLYp
+2k2qbQB41fP0rYY49r/Hp7DvESrRauu9cKbQdJig00/83VGdXG6voh2k91qck0Yq
+uCxIjA1wzvqELPtp4cR93twqrspMJXGUW/V0+ouBbvqVXJ0Dk2rEFnmIlxvp56gV
+UoHoglfKVux2YoHtyzwPMKILDjRX/+FfylK8RDZEoXA3el7mrDbvzw2Vpgok0zfZ
+wvNYpTNyTMAzIW22A3pQKYnIenoTm2jQmR2YOVI1NTvkv1OVTJYAZQ==
+-----END RSA PRIVATE KEY-----</authorizedKeys>
+    </org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
+    <jenkins.security.seed.UserSeedProperty>
+      <seed>e3edd6c2faa0043a</seed>
+    </jenkins.security.seed.UserSeedProperty>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>true</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
+    <jenkins.plugins.slack.user.SlackUserProperty plugin="slack@602.v0da_f7458945d">
+      <userId></userId>
+      <disableNotifications>false</disableNotifications>
+    </jenkins.plugins.slack.user.SlackUserProperty>
+    <hudson.model.TimeZoneProperty>
+      <timeZoneName></timeZoneName>
+    </hudson.model.TimeZoneProperty>
+  </properties>
+</user>

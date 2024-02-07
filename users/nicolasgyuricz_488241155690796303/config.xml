@@ -1,0 +1,153 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<user>
+  <version>10</version>
+  <id>nicolas_gyuricza</id>
+  <fullName>Nicolas GYURICZA</fullName>
+  <description></description>
+  <properties>
+    <jenkins.security.ApiTokenProperty>
+      <tokenStore>
+        <tokenList/>
+      </tokenStore>
+    </jenkins.security.ApiTokenProperty>
+    <io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty plugin="blueocean-autofavorite@1.2.5">
+      <autofavoriteEnabled>true</autofavoriteEnabled>
+    </io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty>
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@1074.v60e6c29b_b_44b_">
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
+    </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@408.vd726a_1130320">
+      <emailAddress>nicolas.gyuricza@acensi.fr</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.87">
+      <triggers/>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
+    <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.3.3">
+      <data class="concurrent-hash-map">
+        <entry>
+          <string>pegasus-refonte/pegasus-back/feature%2FSIP-866%2FSIP-873-back-front-disable-ensable-user</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-front/feature%2FSIP-866%2FSIP-873-back-front-disable-ensable-user</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-back/feature%2FSIP-849-providers</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-front/feature%2FSIP-866%2FSIP-899-small-feedback</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-front/feature%2FSIP-866%2FSIP-879-browseou</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-back/feature%2FSIP-889-back-creation-d-une-table-filias-et-de-son-seeders-et-d-une-route</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-back/SIP-989-front-bug-password-ad</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-back/bugfix%2FSIP-896-back-bugfix-missing-licenses</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-back/bugfix%2FSIP-985-back-front-bug-mauvais-path-when-disable-able</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-back/bugfix%2FSIP-944%2FSIP-979-back-bug-fix-test-unitataire</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-back/feature%2FSIP-866%2FSIP-876-back-get-all-groups</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-back/feature%2FSIP-866%2FSIP-910-back-front-fixes-v2</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-back/bugfix%2FSIP-849%2FSIP-915-back-bugfix-delete-provider-azure-and-jira</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-front/bugfix%2FSIP-989-front-bug-password-ad</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-front/bugfix%2FSIP-944%2FSIP-989-front-bug-password-ad</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-front/feature%2FSIP-866%2FSIP-872-back-front-delete-user</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-back/feature%2FSIP-866%2FSIP-929-back-front-bug-edit-create-aduser-v3</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-back/feature%2FSIP-975-coverage-100-fixes</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-back/feature%2FSIP-866%2FSIP-872-back-front-delete-user</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>pegasus-refonte/pegasus-front/feature%2FSIP-866%2FSIP-910-back-front-fixes-v2</string>
+          <boolean>true</boolean>
+        </entry>
+      </data>
+    </hudson.plugins.favorite.user.FavoriteUserProperty>
+    <hudson.model.MyViewsProperty>
+      <primaryViewName></primaryViewName>
+      <views>
+        <hudson.model.AllView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>all</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.AllView>
+      </views>
+    </hudson.model.MyViewsProperty>
+    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.3.5">
+      <providerId>default</providerId>
+    </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
+    <hudson.model.PaneStatusProperties>
+      <collapsed/>
+    </hudson.model.PaneStatusProperties>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$VZFZ8uS5LqbeXI3zBPng3eaf17Po9F.a8/R5VCCCEDVXcbaVjwqkm</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl plugin="sshd@3.1.0">
+      <authorizedKeys></authorizedKeys>
+    </org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
+    <jenkins.security.seed.UserSeedProperty>
+      <seed>5756c428c4626bce</seed>
+    </jenkins.security.seed.UserSeedProperty>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>true</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
+    <jenkins.plugins.slack.user.SlackUserProperty plugin="slack@602.v0da_f7458945d">
+      <userId></userId>
+      <disableNotifications>false</disableNotifications>
+    </jenkins.plugins.slack.user.SlackUserProperty>
+    <hudson.model.TimeZoneProperty>
+      <timeZoneName></timeZoneName>
+    </hudson.model.TimeZoneProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1682520394568</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
+  </properties>
+</user>

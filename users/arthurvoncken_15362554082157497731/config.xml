@@ -1,0 +1,79 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<user>
+  <version>10</version>
+  <id>arthur_voncken</id>
+  <fullName>Arthur VONCKEN</fullName>
+  <description></description>
+  <properties>
+    <jenkins.security.ApiTokenProperty>
+      <tokenStore>
+        <tokenList/>
+      </tokenStore>
+    </jenkins.security.ApiTokenProperty>
+    <io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty plugin="blueocean-autofavorite@1.2.4">
+      <autofavoriteEnabled>true</autofavoriteEnabled>
+    </io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty>
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@2.3.0">
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain>
+            <specifications/>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <java.util.concurrent.CopyOnWriteArrayList>
+            <com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
+              <id>e22882b7-34dc-467e-8ce4-fb7d959a5f97</id>
+              <description></description>
+              <username>arthur_voncken</username>
+              <password>{AQAAABAAAAAQS3hafhndOO/gVUJb7NH8JxcsFklo2nHsJD25LAs1jS4=}</password>
+            </com.cloudbees.plugins.credentials.impl.UsernamePasswordCredentialsImpl>
+          </java.util.concurrent.CopyOnWriteArrayList>
+        </entry>
+      </domainCredentialsMap>
+    </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@1.27">
+      <emailAddress>arthur.voncken@acensi.fr</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.66">
+      <triggers/>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
+    <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.3.2">
+      <data class="concurrent-hash-map"/>
+    </hudson.plugins.favorite.user.FavoriteUserProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1569486856834</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
+    <hudson.model.MyViewsProperty>
+      <primaryViewName></primaryViewName>
+      <views>
+        <hudson.model.AllView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>all</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.AllView>
+      </views>
+    </hudson.model.MyViewsProperty>
+    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.3.2">
+      <providerId>default</providerId>
+    </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
+    <hudson.model.PaneStatusProperties>
+      <collapsed/>
+    </hudson.model.PaneStatusProperties>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$uFrcE76ru7ZPZ1meJJK5pO9RD4jwdjXt/IJARnqX3dmeZas8Hs4e.</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
+      <authorizedKeys></authorizedKeys>
+    </org.jenkinsci.main.modules.cli.auth.ssh.UserPropertyImpl>
+    <jenkins.security.seed.UserSeedProperty>
+      <seed>d7e7653faf518188</seed>
+    </jenkins.security.seed.UserSeedProperty>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>true</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
+  </properties>
+</user>

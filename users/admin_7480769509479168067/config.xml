@@ -1,0 +1,99 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<user>
+  <version>10</version>
+  <id>admin</id>
+  <fullName>admin.jenkins</fullName>
+  <properties>
+    <jenkins.security.ApiTokenProperty>
+      <tokenStore>
+        <tokenList>
+          <jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+            <uuid>f9ea06c3-b895-4c39-9f94-d49a3e4d2426</uuid>
+            <name>bitbucket</name>
+            <creationDate>2019-05-22 08:53:13.642 UTC</creationDate>
+            <value>
+              <version>11</version>
+              <hash>c4e50c9cdef5e102bb626750f82063642fef39e1b234ef7fac239400fb19631c</hash>
+            </value>
+          </jenkins.security.apitoken.ApiTokenStore_-HashedToken>
+        </tokenList>
+      </tokenStore>
+    </jenkins.security.ApiTokenProperty>
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@1074.v60e6c29b_b_44b_">
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash">
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain>
+            <specifications/>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <java.util.concurrent.CopyOnWriteArrayList/>
+        </entry>
+        <entry>
+          <com.cloudbees.plugins.credentials.domains.Domain>
+            <name>blueocean-private-key-domain</name>
+            <specifications/>
+          </com.cloudbees.plugins.credentials.domains.Domain>
+          <list>
+            <com.cloudbees.jenkins.plugins.sshcredentials.impl.BasicSSHUserPrivateKey plugin="ssh-credentials@1.19">
+              <scope>USER</scope>
+              <id>jenkins-generated-ssh-key</id>
+              <description>jenkins-generated-ssh-key</description>
+              <username>admin</username>
+              <usernameSecret>true</usernameSecret>
+              <privateKeySource class="com.cloudbees.jenkins.plugins.sshcredentials.impl.BasicSSHUserPrivateKey$DirectEntryPrivateKeySource">
+                <privateKey>{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}</privateKey>
+              </privateKeySource>
+            </com.cloudbees.jenkins.plugins.sshcredentials.impl.BasicSSHUserPrivateKey>
+          </list>
+        </entry>
+      </domainCredentialsMap>
+    </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.87">
+      <triggers/>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
+    <hudson.model.MyViewsProperty>
+      <views>
+        <hudson.model.AllView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>all</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.AllView>
+      </views>
+    </hudson.model.MyViewsProperty>
+    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.3.5">
+      <providerId>default</providerId>
+    </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
+    <hudson.model.PaneStatusProperties>
+      <collapsed/>
+    </hudson.model.PaneStatusProperties>
+    <jenkins.security.seed.UserSeedProperty>
+      <seed>51cb18c40dec7aab</seed>
+    </jenkins.security.seed.UserSeedProperty>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>true</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$WSPgEF8c0f20/m3TlnQLM.YcBAVzp7xkdkQKFiFx4gM5n5QJv19PK</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@408.vd726a_1130320">
+      <emailAddress>jenkins@acensi.fr</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1549459991987</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
+    <io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty plugin="blueocean-autofavorite@1.2.5">
+      <autofavoriteEnabled>true</autofavoriteEnabled>
+    </io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty>
+    <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.3.3">
+      <data class="concurrent-hash-map"/>
+    </hudson.plugins.favorite.user.FavoriteUserProperty>
+    <jenkins.plugins.slack.user.SlackUserProperty plugin="slack@602.v0da_f7458945d">
+      <disableNotifications>false</disableNotifications>
+    </jenkins.plugins.slack.user.SlackUserProperty>
+    <hudson.model.TimeZoneProperty/>
+  </properties>
+</user>

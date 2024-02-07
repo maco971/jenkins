@@ -1,0 +1,100 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<user>
+  <version>10</version>
+  <id>jean.devera</id>
+  <fullName>jean.devera</fullName>
+  <properties>
+    <jenkins.security.ApiTokenProperty>
+      <tokenStore>
+        <tokenList/>
+      </tokenStore>
+    </jenkins.security.ApiTokenProperty>
+    <io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty plugin="blueocean-autofavorite@1.2.5">
+      <autofavoriteEnabled>true</autofavoriteEnabled>
+    </io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty>
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@1074.v60e6c29b_b_44b_">
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
+    </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.87">
+      <triggers/>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
+    <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.3.3">
+      <data class="concurrent-hash-map">
+        <entry>
+          <string>Acenstream/acenstream-back/feature%2FDDBOOM-141-back-api-key-gen</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-back/feature%2FDDBOOM-142-back-diffusion-cote-back</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-front/feature%2FDDBOOM-139-front-device-suppression</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-back/feature%2FDDBOOM-143-player-optimisations</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-back/bugfix%2FDDBOOM-427-back-bug-pas-de-role-dans-le-response-du-loginazure</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-front/develop</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-front/feature%2FDDBOOM-152-front-refonte</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-back/feature%2FDDBOOM-421-recurrence-des-evenements</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-front/feature%2FDDBOOM-145-front-diffusion-cote-front</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-front/hotfix%2FDDBOOM-138-front-global-refactoring</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-front/feature%2FDDBOOM-144-front-api-key-generator-and-list</string>
+          <boolean>true</boolean>
+        </entry>
+      </data>
+    </hudson.plugins.favorite.user.FavoriteUserProperty>
+    <hudson.model.MyViewsProperty>
+      <views>
+        <hudson.model.AllView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>all</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.AllView>
+      </views>
+    </hudson.model.MyViewsProperty>
+    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.3.5">
+      <providerId>default</providerId>
+    </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
+    <hudson.model.PaneStatusProperties>
+      <collapsed/>
+    </hudson.model.PaneStatusProperties>
+    <jenkins.security.seed.UserSeedProperty>
+      <seed>c879de4f87c9e8f7</seed>
+    </jenkins.security.seed.UserSeedProperty>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>true</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
+    <jenkins.plugins.slack.user.SlackUserProperty plugin="slack@602.v0da_f7458945d">
+      <disableNotifications>false</disableNotifications>
+    </jenkins.plugins.slack.user.SlackUserProperty>
+    <hudson.model.TimeZoneProperty/>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@408.vd726a_1130320">
+      <emailAddress>jean.devera@acensi.fr</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
+  </properties>
+</user>

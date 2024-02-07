@@ -1,0 +1,129 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<user>
+  <version>10</version>
+  <id>erwan_brau</id>
+  <fullName>Erwan BRAU</fullName>
+  <properties>
+    <jenkins.security.ApiTokenProperty>
+      <tokenStore>
+        <tokenList/>
+      </tokenStore>
+    </jenkins.security.ApiTokenProperty>
+    <io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty plugin="blueocean-autofavorite@1.2.5">
+      <autofavoriteEnabled>true</autofavoriteEnabled>
+    </io.jenkins.blueocean.autofavorite.user.FavoritingUserProperty>
+    <com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty plugin="credentials@1074.v60e6c29b_b_44b_">
+      <domainCredentialsMap class="hudson.util.CopyOnWriteMap$Hash"/>
+    </com.cloudbees.plugins.credentials.UserCredentialsProvider_-UserCredentialsProperty>
+    <hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty plugin="email-ext@2.87">
+      <triggers/>
+    </hudson.plugins.emailext.watching.EmailExtWatchAction_-UserProperty>
+    <hudson.plugins.favorite.user.FavoriteUserProperty plugin="favorite@2.3.3">
+      <data class="concurrent-hash-map">
+        <entry>
+          <string>CLI - SFR Étiquette unifiée/etiquette-unifiee-front/feature%2FCSFRD-1041-front-handle-checkbox-discounts-accessoryDemoLabel</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-back/feature%2FDDBOOM-259-back-add-banner-table</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>CLI - SFR Étiquette unifiée/etiquette-unifiee-back/feature%2FCSFRD-1066-eu-add-robustness-import-sale-points-algorithm</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-front/release%2F1.0.0</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-back/feature%2FDDBOOM-282-back-programmation</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>CLI - SFR Étiquette unifiée/etiquette-unifiee-front/feature%2FCSFRD-1057-eu-demo-refacto</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>CLI - SFR Étiquette unifiée/etiquette-unifiee-back/feature%2FCSFRD-1115-eu-retours-ws19-edition-etiquette-cochage-des-promos-par-defaut</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-front/feature%2FDDBOOM-258-front-handle-banner</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>CLI - SFR Étiquette unifiée/etiquette-unifiee-front/feature%2FCSFRD-1108-discounts-popup</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-front/bugfix%2FDDBOOM-284-front-nettoyage-local-storage</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-back/master</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-back/release%2F1.0.0</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-back/feature%2FDDBOOM-280-back-discussion-player-socket</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>Acenstream/acenstream-front/feature%2FDDBOOM-289-front-refacto-page-media</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>CLI - SFR Étiquette unifiée/etiquette-unifiee-front/feature%2FCSFRD-1099-eu-labels-demo-search-bar</string>
+          <boolean>true</boolean>
+        </entry>
+        <entry>
+          <string>CLI - SFR Étiquette unifiée/etiquette-unifiee-back/bugfix%2FCSFRD-1065-eu-archive-without-modifying-encoding-</string>
+          <boolean>true</boolean>
+        </entry>
+      </data>
+    </hudson.plugins.favorite.user.FavoriteUserProperty>
+    <hudson.model.MyViewsProperty>
+      <views>
+        <hudson.model.AllView>
+          <owner class="hudson.model.MyViewsProperty" reference="../../.."/>
+          <name>all</name>
+          <filterExecutors>false</filterExecutors>
+          <filterQueue>false</filterQueue>
+          <properties class="hudson.model.View$PropertyList"/>
+        </hudson.model.AllView>
+      </views>
+    </hudson.model.MyViewsProperty>
+    <org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty plugin="display-url-api@2.3.5">
+      <providerId>default</providerId>
+    </org.jenkinsci.plugins.displayurlapi.user.PreferredProviderUserProperty>
+    <hudson.model.PaneStatusProperties>
+      <collapsed/>
+    </hudson.model.PaneStatusProperties>
+    <jenkins.security.seed.UserSeedProperty>
+      <seed>46172de208165785</seed>
+    </jenkins.security.seed.UserSeedProperty>
+    <hudson.search.UserSearchProperty>
+      <insensitiveSearch>true</insensitiveSearch>
+    </hudson.search.UserSearchProperty>
+    <jenkins.plugins.slack.user.SlackUserProperty plugin="slack@602.v0da_f7458945d">
+      <disableNotifications>false</disableNotifications>
+    </jenkins.plugins.slack.user.SlackUserProperty>
+    <hudson.model.TimeZoneProperty/>
+    <hudson.security.HudsonPrivateSecurityRealm_-Details>
+      <passwordHash>#jbcrypt:$2a$10$v53I6NYjYkvmyTzkEuh4FuLdvdSDoR3Vk9LdEe0G4ckYvDRCMxDg6</passwordHash>
+    </hudson.security.HudsonPrivateSecurityRealm_-Details>
+    <hudson.tasks.Mailer_-UserProperty plugin="mailer@408.vd726a_1130320">
+      <emailAddress>erwan.brau@acensi.fr</emailAddress>
+    </hudson.tasks.Mailer_-UserProperty>
+    <jenkins.security.LastGrantedAuthoritiesProperty>
+      <roles>
+        <string>authenticated</string>
+      </roles>
+      <timestamp>1660812010705</timestamp>
+    </jenkins.security.LastGrantedAuthoritiesProperty>
+  </properties>
+</user>
